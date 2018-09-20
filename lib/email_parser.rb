@@ -5,11 +5,11 @@
 
 class EmailParser
   def initialize(input)
-    emails=input.split('/,|, /')
+    @input=input
   end
   
   def parse
-    emails=input.split('/,|, /')
+    emails=@input.split('/,|, /')
   end
   
 end
