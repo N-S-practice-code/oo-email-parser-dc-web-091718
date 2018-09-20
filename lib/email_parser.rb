@@ -4,7 +4,13 @@
 # or whitespace (' ').
 
 class EmailParser
-  def initialize
+  def initialize(input)
+    emails=input.split(', ')
+    
+    
+  end
+  
+  def format
     
   end
   
