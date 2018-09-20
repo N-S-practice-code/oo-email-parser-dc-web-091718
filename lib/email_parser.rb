@@ -6,8 +6,6 @@
 class EmailParser
   def initialize(input)
     emails=input.split('/,|, /')
-    
-    
   end
   
   def parse
