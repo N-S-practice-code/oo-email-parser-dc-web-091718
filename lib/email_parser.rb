@@ -9,7 +9,7 @@ class EmailParser
   end
   
   def parse
-    emails=@input.split('/, /')
+    emails=@input.split(', ')
   end
   
 end
